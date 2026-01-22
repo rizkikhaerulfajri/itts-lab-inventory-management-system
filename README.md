@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Lab Inventory Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Single Page Application (SPA) untuk manajemen inventaris laboratorium - **UAS Pemrograman Front-End**
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap)](https://getbootstrap.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Deskripsi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplikasi web berbasis **React.js** untuk mengelola inventaris peralatan laboratorium dengan fitur **CRUD** (Create, Read, Update, Delete). Data disimpan menggunakan **LocalStorage** sebagai simulasi persistensi data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Fitur Utama
 
-### `npm test`
+- **Create** - Tambah item inventaris baru
+- **Read** - Tampilkan daftar inventaris (Grid/List)
+- **Update** - Edit informasi item
+- **Delete** - Hapus item dengan konfirmasi
+- **Responsive Design** - Optimal di Desktop & Mobile
+- **Toast Notifications** - Feedback real-time
+- **LocalStorage** - Data persisten tanpa backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Teknologi yang Digunakan
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Teknologi | Versi | Fungsi |
+|-----------|-------|--------|
+| React.js | 18.3.1 | Frontend framework |
+| Bootstrap | 5.3 | CSS framework & responsive grid |
+| LocalStorage API | - | Simulasi database |
+| JavaScript ES6+ | - | Logika aplikasi |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalasi & Cara Menjalankan
 
-### `npm run eject`
+### Requirements
+- **Node.js** versi 16.x atau lebih baru
+- **npm** atau **yarn**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Langkah-langkah
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone repository**
+```bash
+git clone https://github.com/rizkikhaerulfajri/itts-lab-inventory-management-system.git
+cd itts-lab-inventory-management-system
